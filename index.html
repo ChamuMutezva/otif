@@ -25,13 +25,15 @@
 <body>
     <!--header start here-->
     <header class="hero-area">
-        <nav class="navbar navbar-expand-lg navbar-light bg-inverse fixed-top ">
+        <nav class="navbar navbar-expand-md navbar-dark bg-inverse fixed-top py-0" aria-label="help navigation">
             <div class="container justify-content-end">
+                <!--mobile button menu control start-->
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
+                    aria-expanded="false" aria-label="Toggle help navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+                <!--mobile button menu control end -->
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2  w-100 justify-content-end">
                         <li class="nav-item">
@@ -43,7 +45,7 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
-                                <img src="./images/usa-flag.png" alt="">
+                                <img class="d-inline" src="./images/usa-flag.png" alt="">
                                 English
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -64,12 +66,12 @@
             <!--main navigation starts here-->
             <div class="container d-flex flex-column flex-md-row pt-5">
                 <div class="row pt-5">
-                    <div class="btn-group col-sm-12 col-md-2">
+                    <div class="btn-group col-sm-12 col-md-3">
                         <a href="#" class="btn-logo text-white">
                             <img class="" src="./images/logo.svg" alt="on time in full">
                         </a>
                     </div>
-                    <div class="btn-group col">
+                    <div class="btn-group col-md-2">
                         <button class="btn btn-secondary dropdown-toggle border-0" type="button" id="products"
                             data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
                             Products
@@ -81,7 +83,7 @@
                         </ul>
                     </div>
 
-                    <div class="btn-group col">
+                    <div class="btn-group col-md-2">
                         <button class="btn btn-secondary dropdown-toggle border-0" type="button" id="use-cases"
                             data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
                             Use cases
@@ -93,7 +95,7 @@
                         </ul>
                     </div>
 
-                    <div class="btn-group col">
+                    <div class="btn-group col-md-2">
                         <button class="btn btn-secondary dropdown-toggle border-0" type="button" id="resources"
                             data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
                             Resources
@@ -105,7 +107,7 @@
                         </ul>
                     </div>
 
-                    <div class="btn-group col">
+                    <div class="btn-group col-md-2">
                         <button class="btn btn-secondary dropdown-toggle border-0" type="button" id="company"
                             data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
                             Company
@@ -124,19 +126,18 @@
                 <div class="row ">
                     <!--hero content starts-->
                     <div
-                        class="col-xs-12 col-md-12 col-lg-5 text-white d-flex flex-column align-items-baseline gap-3 justify-content-center">
+                        class="col-xs-12 col-md-12 col-lg-5 text-white d-flex flex-column align-items-baseline gap-3 justify-content-start">
                         <div class="d-flex justify-content-start align-items-center gap-2">
                             <img src="./images/platform.svg" alt="">
-                            <h1 class="h1 fs-4">OTIF PLATFORM</h1>
+                            <h1 class="h1 fs-6">OTIF PLATFORM</h1>
                         </div>
-                        <h2>OPTIMIZATION OF GLOBAL SUPPLY CHAIN</h2>
+                        <h2 class="fw-bolder fs-1">OPTIMIZATION OF GLOBAL SUPPLY CHAIN</h2>
                         <p>OTIF is the next dimension of consolidation, orchestration, and optimization of the global
-                            supply
-                            chain networks, integrating different production enterprises and logistics providers for
-                            your
-                            convenience.
+                            supply chain networks, integrating different production enterprises and logistics providers
+                            for
+                            your convenience.
                         </p>
-                        <button class="btn btn-primary bg-white  btn-start btn-lg">
+                        <button class="btn btn-primary bg-white btn-start btn-lg">
                             Start
                         </button>
                     </div>
@@ -160,7 +161,7 @@
             <div class="row mt-3">
                 <div
                     class="col-md-12 col-lg-6 pt-5 d-flex flex-column align-items-baseline justify-content-center product-info">
-                    <h3 class="position-relative product-info-title">Data Driven</h3>
+                    <h3 class="position-relative product-info-title fw-bold fs-2">Data Driven</h3>
                     <p>We decided to use technology in logistics to habilitate transparent, data-driven, and easy
                         decisions
                         for your business. Our technology is your business' competitive advantage.
@@ -184,7 +185,7 @@
                 </div>
                 <div
                     class="col-md-12 col-lg-6 pt-5 d-flex flex-column align-items-baseline justify-content-center product-info">
-                    <h3 class="position-relative product-info-title">Efficiency and Transparency</h3>
+                    <h3 class="position-relative product-info-title fw-bold fs-2">Efficiency and Transparency</h3>
                     <p>OTIF is a platform that can smoothly and flexibly integrate all parties across multiple supply
                         chains, enabling the formation of modular services for your needs, maximizing your efficiency,
                         and reducing your costs.
@@ -197,12 +198,12 @@
             <div class="row mt-3">
                 <div
                     class="col-md-12 col-lg-6 pt-5 d-flex flex-column align-items-baseline justify-content-center product-info">
-                    <h3 class="position-relative product-info-title">On-Time In Full</h3>
+                    <h3 class="position-relative product-info-title fw-bold fs-2">On-Time In Full</h3>
                     <p>
                         Do you ever wish there was a platform where you could search, compare, and buy the best, most
                         reliable logistical bookings?
                     </p>
-                    <ul>
+                    <ul class="px-0">
                         <li>Now there is, OTIF.</li>
                         <li> OTIF : ON-TIME IN FULL</li>
                         <li> Our team is your team.</li>
@@ -219,96 +220,156 @@
         </div>
     </main>
     <aside class="py-5" style="background: hsla(247, 84%, 58%, 1)">
-        <div class="container d-flex align-items-center text-white justify-content-center">
-            <div class="">
-                <h3>If you Have any Questions Contact Us </h3>
+        <div
+            class="container-md d-flex flex-column flex-sm-row align-items-center gap-3 text-white justify-content-center">
+            <div class="aside-content">
+                <h3 class="fw-bold fs-2 text-white">If you Have any Questions Contact Us </h3>
                 <p>
                     OTIF bring together all the packages in mexico and the world. otif Products facilitate logistics for
                     your
                     company that operates on the internet or in person.Our services includes
                 </p>
             </div>
-            <div class="">
-                <a href="#" class="btn btn-outline-dark text-white btn-lg border-white">
+            <div class="call-to-action">
+                <a href="#" class="btn btn-outline-dark w-100 px-3 text-white btn-lg d-block border-white btn-request">
                     Request a quorte
                 </a>
             </div>
         </div>
     </aside>
     <!--footer end-->
-    <footer>
+    <footer style="background: hsla(225, 50%, 98%, 1);">
         <div class="container">
             <div class="row">
-                <div class="btn-group col-sm-12">
+                <div class="btn-group col-sm-12 py-5">
                     <a href="#" class="btn-logo text-white">
                         <img class="footer-logo" src="./images/logo.svg" alt="on time in full">
                     </a>
                 </div>
                 <div class="col-lg-2 col-md-6 col-sm-6 col-xs-6 col-mb-12">
                     <div class="widget">
-                        <h3 class="block-title">Products</h3>
+                        <h3 class="block-title fw-bold fs-6 mb-3">Products</h3>
                         <ul class="menu ms-0 ps-0">
-                            <li class="ms-0 ps-0"><a href="/terms">Terms and Conditions</a></li>
-                            <li class="ms-0 ps-0"><a href="/">Companies</a></li>
-                            <li class="ms-0 ps-0"><a href="/">Quorting</a></li>
-                            <li class="ms-0 ps-0"><a href="/">Security</a></li>
-                            <li class="ms-0 ps-0"><a href="/">Why OTIF?</a></li>
+                            <li class="ms-0 ps-0">
+                                <a class="fs-6 text-black-50 fw-normal" href="/">Terms and Conditions</a>
+                            </li>
+                            <li class="ms-0 ps-0">
+                                <a class="fs-6 text-black-50 fw-normal" href="/">Companies</a>
+                            </li>
+                            <li class="ms-0 ps-0">
+                                <a class="fs-6 text-black-50 fw-normal" href="/">Quorting</a>
+                            </li>
+                            <li class="ms-0 ps-0">
+                                <a class="fs-6 text-black-50 fw-normal" href="/">Security</a>
+                            </li>
+                            <li class="ms-0 ps-0">
+                                <a class="fs-6 text-black-50 fw-normal" href="/">Why OTIF?</a>
+                            </li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-6 col-sm-6 col-xs-6 col-mb-12">
                     <div class="widget">
-                        <h3 class="block-title">Shipping</h3>
+                        <h3 class="block-title fw-bold fs-6 mb-3">Shipping</h3>
                         <ul class="menu ms-0 ps-0">
-                            <li class="ms-0 ps-0"><a href="/shipping-info">Shipping</a></li>
-                            <li class="ms-0 ps-0"><a href="/shipping-info">Shipping to</a></li>
-                            <li class="ms-0 ps-0"><a href="/deliveries-info">Deliveries to Mexico</a></li>
-                            <li class="ms-0 ps-0"><a href="/shipping-info">Cheap shipping</a></li>
-                            <li class="ms-0 ps-0"><a href="/shipping-info">Package shipments</a></li>
-                            <li class="ms-0 ps-0"><a href="/shipping-info">Economic shipment</a></li>
-                            <li class="ms-0 ps-0"><a href="/shipping-info">National Shipment</a></li>
-                            <li class="ms-0 ps-0"><a href="/shipping-info">Secure Shipments</a></li>
-                            <li class="ms-0 ps-0"><a href="/shipping-info">Secure shipping</a></li>
-                            <li class="ms-0 ps-0"><a href="/shipping-info">Prepaid guides</a></li>
-                            <li class="ms-0 ps-0"><a href="/shipping-info">Express courier</a></li>
-                            <li class="ms-0 ps-0"><a href="/shipping-info">Economic package</a></li>
-                            <li class="ms-0 ps-0"><a href="/shipping-info">Packages in Mexico</a></li>
+                            <li class="ms-0 ps-0">
+                                <a href="/" class="fs-6 text-black-50 fw-normal">Shipping</a>
+                            </li>
+                            <li class="ms-0 ps-0">
+                                <a href="/" class="fs-6 text-black-50 fw-normal">Shipping to</a>
+                            </li>
+                            <li class="ms-0 ps-0">
+                                <a href="/" class="fs-6 text-black-50 fw-normal">Deliveries to Mexico</a>
+                            </li>
+                            <li class="ms-0 ps-0">
+                                <a href="/" class="fs-6 text-black-50 fw-normal">Cheap shipping</a>
+                            </li>
+                            <li class="ms-0 ps-0">
+                                <a href="/" class="fs-6 text-black-50 fw-normal">Package shipments</a>
+                            </li>
+                            <li class="ms-0 ps-0">
+                                <a href="/" class="fs-6 text-black-50 fw-normal">Economic shipment</a>
+                            </li>
+                            <li class="ms-0 ps-0">
+                                <a href="/" class="fs-6 text-black-50 fw-normal">National Shipment</a>
+                            </li>
+                            <li class="ms-0 ps-0">
+                                <a href="/" class="fs-6 text-black-50 fw-normal">Secure Shipments</a>
+                            </li>
+                            <li class="ms-0 ps-0">
+                                <a href="/" class="fs-6 text-black-50 fw-normal">Secure shipping</a>
+                            </li>
+                            <li class="ms-0 ps-0">
+                                <a href="/" class="fs-6 text-black-50 fw-normal">Prepaid guides</a>
+                            </li>
+                            <li class="ms-0 ps-0">
+                                <a href="/" class="fs-6 text-black-50 fw-normal">Express courier</a>
+                            </li>
+                            <li class="ms-0 ps-0">
+                                <a href="/" class="fs-6 text-black-50 fw-normal">Economic package</a>
+                            </li>
+                            <li class="ms-0 ps-0">
+                                <a href="/" class="fs-6 text-black-50 fw-normal">Packages in Mexico</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 col-mb-12">
+                    <div class="widget">
+                        <h3 class="block-title fw-bold fs-6 mb-3">International Shipping</h3>
+                        <ul class="menu ms-0 ps-0">
+                            <li class="ms-0 ps-0">
+                                <a href="/" class="fs-6 text-black-50 fw-normal">International Deliveries</a>
+                            </li>
+                            <li class="ms-0 ps-0">
+                                <a href="/" class="fs-6 text-black-50 fw-normal">Shipping Monterrey</a>
+                            </li>
+                            <li class="ms-0 ps-0">
+                                <a href="/" class="fs-6 text-black-50 fw-normal">Secure shipments</a>
+                            </li>
                         </ul>
                     </div>
                 </div>
 
                 <div class="col-lg-2 col-md-6 col-sm-6 col-xs-6 col-mb-12">
                     <div class="widget">
-                        <h3 class="block-title">International Shipping</h3>
+                        <h3 class="block-title fw-bold fs-6 mb-3">Parcels</h3>
                         <ul class="menu ms-0 ps-0">
-                            <li class="ms-0 ps-0"><a href="/international">International Deliveries</a></li>
-                            <li class="ms-0 ps-0"><a href="/">Shipping Monterrey</a></li>
-                            <li class="ms-0 ps-0"><a href="/">Secure shipments</a></li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="col-lg-2 col-md-6 col-sm-6 col-xs-6 col-mb-12">
-                    <div class="widget">
-                        <h3 class="block-title">Parcels</h3>
-                        <ul class="menu ms-0 ps-0">
-                            <li class="ms-0 ps-0"><a href="/">Mails from Mexico</a></li>
-                            <li class="ms-0 ps-0"><a href="/">Carsa</a></li>
-                            <li class="ms-0 ps-0"><a href="/">Express Package</a></li>
-                            <li class="ms-0 ps-0"><a href="/">Post Office</a></li>
-                            <li class="ms-0 ps-0"><a href="/">Redpack</a></li>
-                            <li class="ms-0 ps-0"><a href="/">Sendex</a></li>
-                            <li class="ms-0 ps-0"><a href="/">UPS</a></li>
-                            <li class="ms-0 ps-0"><a href="/">DHL</a></li>
+                            <li class="ms-0 ps-0">
+                                <a href="/" class="fs-6 text-black-50 fw-normal">Mails from Mexico</a>
+                            </li>
+                            <li class="ms-0 ps-0">
+                                <a href="/" class="fs-6 text-black-50 fw-normal">Carsa</a>
+                            </li>
+                            <li class="ms-0 ps-0">
+                                <a href="/" class="fs-6 text-black-50 fw-normal">Express Package</a>
+                            </li>
+                            <li class="ms-0 ps-0">
+                                <a href="/" class="fs-6 text-black-50 fw-normal">Post Office</a>
+                            </li>
+                            <li class="ms-0 ps-0">
+                                <a href="/" class="fs-6 text-black-50 fw-normal">Redpack</a>
+                            </li>
+                            <li class="ms-0 ps-0">
+                                <a href="/" class="fs-6 text-black-50 fw-normal">Sendex</a>
+                            </li>
+                            <li class="ms-0 ps-0">
+                                <a href="/" class="fs-6 text-black-50 fw-normal">UPS</a>
+                            </li>
+                            <li class="ms-0 ps-0">
+                                <a href="/" class="fs-6 text-black-50 fw-normal">DHL</a>
+                            </li>
                         </ul>
                     </div>
                 </div>
 
                 <form class="col-lg-3 col-md-6 col-sm-6 col-xs-6 col-mb-12">
-                    <h3>Subscribe to our newsletter</h3>
+                    <h3 class="fw-bold fs-6 mb-3">Subscribe to our newsletter</h3>
                     <div class="mb-3">
                         <label for="exampleInputEmail1" class="form-label">Email address</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter your email">
+                        <input type="email" class="form-control" id="exampleInputEmail1" required
+                            placeholder="Enter your email">
                     </div>
                     <button type="submit" class="btn btn-dark text-info">Subscribe</button>
                 </form>
@@ -318,17 +379,23 @@
         <div class="container py-4">
             <ul class="menu d-flex flex-column flex-md-row justify-content-md-evenly justify-content-lg-start gap-lg-4">
                 <li>
-                    <a href="#">Copyright &copy; 2022. All rights reserved.</a>
+                    <a href="#" class="footer-link">Copyright &copy; 2022. All rights reserved.</a>
                 </li>
                 <li>
-                    <a href="#">Privacy & policy</a>
+                    <a href="#" class="footer-link">Privacy & policy</a>
                 </li>
                 <li>
-                    <a href="#">Terms & Conditions</a>
+                    <a href="#" class="footer-link">Terms & Conditions</a>
                 </li>
             </ul>
 
         </div>
+
+        <a href="#" class="back-to-top btn btn-info rounded-circle justify-content-center align-items-center btn-lg"
+            style="display: flex;">
+            <img class="d-block" src="./images/up-arrow.png" alt="">
+        </a>
+
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
