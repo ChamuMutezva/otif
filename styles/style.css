@@ -85,7 +85,12 @@ a:not([class]) {
         scroll-behavior: auto !important;
     }
 }
+
 /* **************RESET RULES END********************/
+:root {
+    --service-tx-color: hsla(0, 0%, 7%, 1);
+}
+
 a {
     text-decoration: none;
     font-size: 1.125rem;
@@ -106,6 +111,10 @@ h3 {
 .btn {
     background-color: inherit;
     font-size: 1.125rem;
+}
+
+footer a {
+    color: var(--service-tx-color);
 }
 
 .btn-start {
