@@ -14,5 +14,12 @@ A CSS file was included to override some of the styles mainly the font sizes , a
 
 - Hide back-to-top button when full view has been reached
 - investigate heading elements order for consistence
+- the following section considering to make it a figure element
+```html
+ <div class="d-flex justify-content-start align-items-center gap-2">
+                            <img src="./images/platform.svg" alt="">
+                            <span class="span text-uppercase">OTIF platform</span>
+                        </div>
+```
 
 Start button text is different - figma text is written `explore now`
