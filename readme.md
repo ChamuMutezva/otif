@@ -12,7 +12,7 @@ A CSS file was included to override some of the styles mainly the font sizes , a
 
 ### todo
 
-Hide back-to-top button when full view has been reached
-
+- Hide back-to-top button when full view has been reached
+- investigate heading elements order for consistence
 
 Start button text is different - figma text is written `explore now`
