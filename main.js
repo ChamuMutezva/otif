@@ -1,8 +1,6 @@
 const backToTop = document.querySelector(".back-to-top");
 const rootElement = document.documentElement;
-console.log(backToTop)
-console.log(rootElement.scrollHeight)
-console.log(rootElement.clientHeight)
+// TODO: hide back-to-top button when scroll is in 100vh//
 /*
 function scrollToTop() {
     console.log(rootElement.scrollHeight)
@@ -14,6 +12,5 @@ function scrollToTop() {
         backToTop.classList.remove("hide")
     }
 }
-
 document.addEventListener("scroll", scrollToTop)
 */

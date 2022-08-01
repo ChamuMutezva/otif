@@ -94,14 +94,6 @@ a:not([class]) {
     --md-font-size: 1.125rem;
     --lg-font-size: 2.5rem;
     --xl-font-size: 2.8125rem;
-    /*
-    --h1-font-size: 0.875rem; 
-    --h2-font-size: 2.8125rem;
-    --h3-font-size: 2.5rem;
-    --btn-font-size: 0.875rem;
-    --para-font-size: 1rem;
-    --para-main-font-size: 1.125rem;
-    --anchor-font-size: 1.125rem; */
     --blue-tx-color: hsla(247, 84%, 58%, 1);
 }
 
@@ -152,9 +144,14 @@ footer a {
     padding: 15px 15px;
 }
 
+.btn-submit {
+    background-color: var(--blue-tx-color);
+}
+
+.btn-submit:hover,
+.btn-submit:focus,
 .btn-primary:hover,
-.btn-primary:focus {
-    opacity: 0.6;
+.btn-primary:focus {  
     color: #543DFF;
     outline: dashed currentColor;
     outline-offset: -0.5em;
@@ -181,8 +178,8 @@ footer a {
 }
 
 .h3-main {
-    font-size: var(--md-font-size); 
-    font-weight: 700;   
+    font-size: var(--md-font-size);
+    font-weight: 700;
 }
 
 .product-info::before {
@@ -214,6 +211,7 @@ footer a {
     line-height: 50px;
     cursor: pointer;
     text-align: center;
+    border-color: var(--blue-tx-color);
     z-index: 9999999;
 }
 
@@ -224,6 +222,10 @@ footer a {
 
 .product-hero {
     position: relative;
+}
+
+.btn-submit {
+    background-color: var(--blue-tx-color);
 }
 
 @media screen and (min-width: 576px) {
