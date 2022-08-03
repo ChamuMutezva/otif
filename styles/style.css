@@ -202,7 +202,7 @@ footer a {
 }
 
 .back-to-top {
-    display: none;
+    display: none; 
     position: fixed;
     bottom: 18px;
     right: 15px;
@@ -213,6 +213,10 @@ footer a {
     text-align: center;
     border-color: var(--blue-tx-color);
     z-index: 9999999;
+}
+
+.show-btn {
+    display: flex;
 }
 
 .footer-link {
